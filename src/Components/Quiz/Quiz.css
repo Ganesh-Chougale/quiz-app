@@ -1,0 +1,16 @@
+.quizbody{
+    color: white;
+    height: 400px;
+    width: 400px;
+    background-color: #52525294;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.quizport{
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+}
