@@ -1,8 +1,7 @@
-let QB = [
-    [
+const QB = [
         {
-            "id": "q1",
-            "question": "What is the capital of France?",
+            "id": "1",
+            "question": "Q1) What is the capital of France?",
             "answers": {
                 "option1": "London",
                 "option2": "Paris",
@@ -12,8 +11,8 @@ let QB = [
             "correctAnswerIndex": 1
         },
         {
-            "id": "q2",
-            "question": "Which element has the chemical symbol 'O'?",
+            "id": "2",
+            "question": "Q2) Which element has the chemical symbol 'O'?",
             "answers": {
                 "option1": "Gold",
                 "option2": "Oxygen",
@@ -23,8 +22,8 @@ let QB = [
             "correctAnswerIndex": 1
         },
         {
-            "id": "q3",
-            "question": "Who wrote 'Romeo and Juliet'?",
+            "id": "3",
+            "question": "Q3) Who wrote 'Romeo and Juliet'?",
             "answers": {
                 "option1": "Charles Dickens",
                 "option2": "Jane Austen",
@@ -34,8 +33,8 @@ let QB = [
             "correctAnswerIndex": 2
         },
         {
-            "id": "q4",
-            "question": "What is the smallest prime number?",
+            "id": "4",
+            "question": "Q4) What is the smallest prime number?",
             "answers": {
                 "option1": "0",
                 "option2": "1",
@@ -44,5 +43,6 @@ let QB = [
             },
             "correctAnswerIndex": 2
         }
-    ]
 ]
+
+export default QB;
